@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     get '/' do
-    erb :user_input
+      erb :new
     end
 
   end
